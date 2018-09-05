@@ -1,0 +1,268 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: "Calibri", sans-serif;
+}
+
+html {
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#hat {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+}
+
+#name {
+    margin-left:110px;
+    padding-top: 13px;
+    font-size:1.7em;
+    line-height: 0.87;
+    font-weight: 100;
+    width: 300px;
+    float: left;
+}
+
+strong {
+    font-weight: 500;
+    font-size:1.1em;
+}
+
+#menu {
+    float: left;
+    width: 890px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+
+.celll {
+    background-color: white;
+    height: 28px;
+    float: left;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    margin-right: 20px;
+    color: #000000;
+}
+
+.celll:hover {
+    color: #9b9b9b;
+}
+
+
+#triger {
+    border: 1px solid #000000;
+}
+
+.lang {
+    float: left;
+    height: 24px;
+    border: 1px solid #000000;
+    width: 26px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    padding-top: 4px;
+    padding-left: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#trig {
+    background-color: black;
+    color: white;
+}
+
+#wraper {
+    position: absolute;
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.box {
+    float: left;
+    width: 370px;
+    height: 370px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    background-color:#d4d4d4;
+    overflow: hidden;
+}
+
+.prev {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+}
+
+.pi {
+    width: 355px;
+    height: 90px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: 1.4em;
+    padding-left: 15px;
+    padding-top: 280px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.49);
+    -webkit-transition: opacity 0.2s cubic-bezier(.69, -0.02, .45, .98);
+    -moz-transition: opacity 0.2s cubic-bezier(.69, -0.02, .45, .98);
+    -o-transition: opacity 0.2s cubic-bezier(.69, -0.02, .45, .98);
+    transition: opacity 0.2s cubic-bezier(.69, -0.02, .45, .98);
+}
+#k4,#k6,#k41,#k48 {
+    height: 120px;
+    padding-top: 250px;
+}
+.pi:hover {
+    opacity: 1;
+}
+
+#shadow {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.72);
+    width: 100%;
+    height: 100%;
+    display: none;
+    cursor: pointer;
+}
+
+
+.img {
+    margin: 0 auto;
+    height: 800px;
+    width: auto;
+    margin-top: 120px;
+    display: none;
+}
+
+#wraperabout {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+#photo {
+    float: left;
+    margin-right: 30px;
+}
+
+h1 {
+    margin-top: -4px;
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+strong1 {
+    font-weight: 600;
+}
+
+#tele {
+    float: left;
+    padding: 9px;
+    border: 1px solid #000000;
+}
+
+p1 {
+    font-size: 1.1em;
+}
+
+#megawraper {
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media screen and (orientation: portrait) {
+
+
+}
+
+@media only screen and (max-width: 1910px){
+    #hat {
+        width: 1600px;
+    }
+    #menu {
+        width: 890px;
+        height: 30px;
+        margin-top: 25px;
+        margin-left: 200px;
+    }
+    #wraper {
+        width: 1600px;
+        height: auto;
+        padding-left: 40px;
+    }
+    #megawraper {
+        width: 1600px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .img {
+        height: 700px;
+        width: auto;
+        margin-top: 120px;
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1599px){
+    #hat {
+        width: 1280px;
+    }
+    #menu {
+        width: 790px;
+        height: 30px;
+        margin-top: 25px;
+        margin-left: 40px;
+    }
+    #wraper {
+        width: 1290px;
+        height: auto;
+        padding-left: 40px;
+    }
+    #megawraper {
+        width: 1280px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .img {
+        height: 600px;
+        width: auto;
+        margin-top: 120px;
+        display: none;
+    }
+    
+    #name {
+    margin-left: 50px;
+    }
+    .celll {
+        background-color: white;
+        height: 28px;
+        float: left;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+
+}
